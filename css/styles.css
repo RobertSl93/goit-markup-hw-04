@@ -287,6 +287,17 @@ ol {
 	margin-right: 30px;
 }
 
+.our-strenght-list-icon{
+	width:270px;
+	min-height:120px;
+	background: #F5F4FA;;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:30px
+}
+
 .our-strength-list-item-title {
 	margin-bottom: 10px;
 	font-weight: bold;
