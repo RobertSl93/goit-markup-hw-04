@@ -97,7 +97,7 @@ ol {
 }
 
 .navigation {
-	margin-right: 371px;
+	margin-right: 345px;
 }
 
 .navigation-list {
@@ -119,28 +119,45 @@ ol {
 }
 
 .navigation-list-link:focus,
-.navigation-list-link:hover,
-.contact-list-link:focus,
-.contact-list-link:hover {
+.navigation-list-link:hover
+{
 	color: var(--checked-color);
 }
 
 .contact-list {
 	list-style: none;
 	display: flex;
+	color:var(--secondary-color);
 }
 
 .contact-list-link {
+	display:block;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.143;
 	letter-spacing: 0.02em;
-	color: var(--secondary-color);
+	color: currentColor;
 	text-decoration: none;
 }
 
+.contact-list-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-list-item:hover{
+	color:var(--checked-color);
+}
+
+
 .contact-list-item:first-child {
-	margin-right: 50px;
+	margin-right: 30px;
+}
+
+.contact-list-icon_space{
+	margin-right:10px;
+	fill:currentColor;
 }
 
 .portfolio-active {
