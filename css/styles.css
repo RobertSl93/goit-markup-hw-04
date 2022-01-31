@@ -436,6 +436,48 @@ ol {
 
 /* ========OUR TEAM END======= */
 
+/* ========OUR CLIENTS======= */
+.our-clients-title{
+	font-weight: bold;
+	font-size:36px;
+	line-height:1.1666;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-color);
+	margin-bottom: 50px;
+}
+
+.our-clients-content{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.our-clients-logo{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width: 170px;
+	height:92px;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+	color: var(--secondary-color);
+}
+
+.our-clients-icon{
+	width:106px;
+	height:60px;
+	fill: currentColor;
+}
+
+.our-clients-logo:hover,
+.our-clients-logo:focus{
+	border: 1px solid var(--checked-color);
+	color: var(--checked-color)
+}
+
+/* ========OUR CLIENTS END======= */
+
 /* ========FOOTER======= */
 .footer{
 	background-color: var(--background-color);
