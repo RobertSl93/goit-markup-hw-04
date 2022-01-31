@@ -16,6 +16,7 @@
 	--hero-title-color: #ffffff;
 	--ourteam-background-color: #f5f4fa;
 	--card-color: #ffffff;
+	--checked-icon: #ffffff;
 }
 
 body {
@@ -79,6 +80,39 @@ ol {
 .logo-right-side-dark-theme {
 	color: var(--right-logo-color-dark-theme);
 }
+
+.social-links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links-link{
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	color: var(--secondary-color)
+}
+
+.social-links-link:not(:last-child){
+	margin-right: 10px;
+}
+
+.social-links-icon{
+	width:20px;
+	height:20px;
+	fill:currentColor;
+}
+
+.social-links-link:hover,
+.social-links-link:focus{
+	color: var(--checked-icon);
+	background-color: var(--checked-color);
+}
+
 /* ========COMPONENTS END======= */
 
 /* ========HEADER======= */
@@ -393,7 +427,11 @@ ol {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--secondary-color);
-	margin-bottom: 30px;
+	margin-bottom: 16px;
+}
+
+.our-team .social-links{
+	margin-bottom: 18px;
 }
 
 /* ========OUR TEAM END======= */
