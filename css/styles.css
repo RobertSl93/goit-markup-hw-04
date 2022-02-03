@@ -18,6 +18,7 @@
 	--card-color: #ffffff;
 	--checked-icon: #ffffff;
 	--dark-theme-icon-background-color: rgba(255, 255, 255, 0.1);
+	--icon-colour: #AFB1B8;
 }
 
 body {
@@ -95,7 +96,7 @@ ol {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	color: var(--secondary-color);
+	color: var(--icon-colour);
 }
 
 .social-links-link-dark-theme {
@@ -286,10 +287,6 @@ ol {
 /* ========MAIN END======= */
 
 /* ========HERO======= */
-.hero {
-	background: var(--background-color);
-}
-
 .hero-background-container {
 	margin: 0 auto;
 	max-width: 1600px;
@@ -488,7 +485,7 @@ ol {
 	height: 92px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
-	color: var(--secondary-color);
+	color: var(--icon-colour);
 }
 
 .our-clients-icon {
